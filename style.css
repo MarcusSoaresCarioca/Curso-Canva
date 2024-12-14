@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #3E848C;
+    background: url('https://images7.alphacoders.com/135/thumb-1920-1351260.png') no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
     display: flex;
@@ -15,8 +16,8 @@ body {
     text-align: center;
 }
 header {
-    background: #333;
-    color: #fff;
+    background: rgba(255, 255, 255, 0);
+    color: #ffffff;
     padding: 20px 0;
     width: 100%;
 }
@@ -64,6 +65,22 @@ header li {
 .btn:hover{
     background-color: #0063cc;
 }
+
+.btn2{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00be20;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.btn2:hover{
+    background-color: #008a17;
+}
 .contact {
     margin: 20px 0;
 }
@@ -76,7 +93,7 @@ header li {
  color: #3E848C;
 }
 footer {
-    background: #333;
+    background: #00000000;
     color: #fff;
     text-align: center;
     padding: 10px 0;
